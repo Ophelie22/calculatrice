@@ -68,3 +68,9 @@ catch(error) {
     alert(error); // Si une erreur est survenue, on affiche l'erreur
 
 }
+restart = confirm("Souhaitez-vous recommencer un calcul ?"); 
+// On demande grâce à la boîte de dialogue confirm() si l'utilisateur 
+//veut recommencer
+  
+ while(restart);
+
